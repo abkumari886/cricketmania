@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My practice project</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/ViewTeam.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                <section class="logo"><img src="images/logo.png"></section>
+                    <nav>
+                        <ul>
+                            <li><a href="http://127.0.0.1:5502/index.html#">Home</a></li>
+                            <li><a href="http://127.0.0.1:5502/Teamlist.html">Teams</a></li>
+                            <li><a href="http://127.0.0.1:5502/Playerlist.html">Players</a></li>
+                            <li><a href="http://127.0.0.1:5502/statistics.html">Statistics</a></li>
+                            <li><a href="http://127.0.0.1:5502/contact.html">Contact us</a></li>
+                        </ul>
+                    </nav>
+
+            </div>
+            
+        </header>
+        <section>
+            <div class="container">
+                <h3>View Team</h3>
+                    <form action="/AddTeam.html" class="output">
+                        <label for="tname">Team Name:</label>
+                        <input type="text" id="tname" name="tname"><br><br>
+                        <label for="tplayers">Team Players:</label>
+                        <input type="text" id="tplayers" name="tplayers"><br><br>
+                        <label for="tcode">Team Code:</label>
+                        <input type="text" id="tcode" name="tcode"><br><br>
+                        <label for="desc">Description:</label>
+                        <input type="text" id="desc" name="desc"><br><br>
+                        <label for="tcoach">Team Coach:</label>
+                        <input type="text" id="tcoach" name="tcoach"><br><br>
+                        <label for="mplayed">Matches Played:</label>
+                        <input type="text" id="mplayed" name="mplayed"><br><br>
+                        <label for="mwin">Matches Win :</label>
+                        <input type="text" id="mwin" name="mwin"><br><br>
+                        <label for="mlost">Matches Lost:</label>
+                        <input type="text" id="mlost" name="mlost"><br><br>
+                        <label for="trating">Team Rating:</label>
+                        <input type="text" id="trating" name="trating"><br><br>
+                        <button id="bttn">Find</button>
+                        <button type="cancel" onclick="window.location='http://127.0.0.1:5502/Teamlist.html';return false;">Cancel</button>
+                </form>
+            </div>
+            
+            
+        </section>
+        
+        <footer>
+            <div class="copyright-text">
+                2022 Cricketmania © All Rights Reserved ;
+            </div>
+        </footer>
+    </body>
+     <script src="js/ViewTeam.js"></script>
+</html>

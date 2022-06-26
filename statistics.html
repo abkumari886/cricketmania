@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My practice project</title>
+        <link rel="stylesheet" href="css/statistics.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                <section class="logo"><img src="images/logo.png"></section>
+                    <nav>
+                        <ul>
+                            <li><a href="http://127.0.0.1:5502/index.html#">Home</a></li>
+                            <li><a href="http://127.0.0.1:5502/Teamlist.html">Teams</a></li>
+                            <li><a href="http://127.0.0.1:5502/Playerlist.html">Players</a></li>
+                            <li><a href="#">Statistics</a></li>
+                            <li><a href="http://127.0.0.1:5502/contact.html">Contact us</a></li>
+                        </ul>
+                    </nav>
+
+            </div>
+            
+        </header>
+        <section>
+            <div class="container">
+                <h3>Statistics</h3>
+                <form action="/statistics.html">
+            
+                    <!-- <label for="pname">Players:</label>
+                    <input type="select" id="pname" name="pname"><br><br> -->
+                    <label for="player">Choose a player:</label>
+                    <select id="player" name="player">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <label for="tmatch">Total Match:</label>
+                    <input type="text" id="tmatch" name="tmatch"><br><br>
+                    <label for="century">Century:</label>
+                    <input type="text" id="century" name="century"><br><br>
+                    <label for="hcentury">Half Century:</label>
+                    <input type="text" id="hcentury" name="hcentury"><br><br>
+                    <label for="trun">Total Run:</label>
+                    <input type="text" id="trun" name="trun"><br><br>
+                    <label for="overs">Overs:</label>
+                    <input type="text" id="overs" name="overs"><br><br>
+                    <label for="wicket">Wicket:</label>
+                    <input type="text" id="wicket" name="wicket"><br><br>
+                    <label for="rout">Runout:</label>
+                    <input type="text" id="rout" name="rout"><br><br>
+                    
+                    <button type="submit" value="Submit">Save</button>
+                    <button type="cancel" onclick="">Cancel</button>
+                  </form>
+
+            </div>
+
+        </section>
+        
+        <footer>
+            <div class="copyright-text">
+                2022 Cricketmania © All Rights Reserved ;
+            </div>
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,59 @@
+h3{
+    padding-top: 10px;
+}
+.container{
+    margin-top: 0px;
+}
+.container button{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 36px;
+    width: 100px;
+    max-width: 100%;
+    border-radius: 92px;
+    background-color: #3E50E5;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.container input{
+    margin-left: 20px;
+    height: 32px;
+    width: 526px;
+}
+.container #pname{
+    margin-left: 80px;
+}
+.container #tmatch{
+    margin-left: 50px;
+}
+.container #century{
+    margin-left: 80px;
+}
+.container #hcentury{
+    margin-left: 50px;
+}
+.container #trun{
+    margin-left: 75px;
+}
+.container #overs{
+    margin-left: 100px;
+}
+.container #wicket{
+    margin-left: 95px;
+}
+.container #rout{
+    margin-left: 95px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
