@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
     <link rel="stylesheet" href="css/AddPlayer.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/contact.css"> -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <body>
             <!--Navigation bar-->
@@ -25,22 +26,18 @@
             <h1>Add Player</h1>
             <h4>Enter Data and Click Save</h4>
             <form class="form" id="myForm">
-                <label for="pname">Player Name:</label>
-                <input type="text" id="pname" name="pname"><br><br>
-                <label for="ptype">Player Type:</label>
-                <input type="text" id="ptype" name="ptype"><br><br>
-                <label for="dbirth">Date Of Birth:</label>
-                <input type="text" id="dbirth" name="dbirth"><br><br>
-                <label for="pbirth">Place Of Birth:</label>
-                <input type="text" id="pbirth" name="pbirth"><br><br>
-                <label for="mname">Mother Name:</label>
-                <input type="text" id="mnamr" name="mname"><br><br>
-                <label for="fname">Father Name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="rank">Ranking:</label>
-                <input type="text" id="rank" name="rank"><br><br>
+                <input class="form-control" type="text" id="pname" name="name" placeholder="Player Name"><br>
+                <input class="form-control" type="text" id="ptype" name="player_type" placeholder="Player Type"><br>
+                <input class="form-control" type="text" id="dbirth" name="dob" placeholder="Date Of Birth"><br>
+                <input class="form-control" type="text" id="address" name="address" placeholder="Address:"><br>
+                <input class="form-control" type="text" id="gnamr" name="gurdian_name" placeholder="Guardian Name"><br>
+                <select class="form-control form-control-sm" id="team" name="team_name" >
+                <option value="volvo">Team</option>
+                <option value="saab">Saab</option>
+                </select><br>
+                <input class="form-control" type="text" id="rank" name="ranking" placeholder="Ranking"><br>
                 <label for="img">Player Image:</label>
-                <input type='file' onchange="readURL(this);" />
+                <input  type='file' id="choose" onchange="readURL(this);" />
                 <img id="img" name="img" src="#" alt="your image" /><br><br>
                 <button type="submit" value="Submit">Save</button>
                 <button type="cancel" onclick="window.location='Playerlist.html';return false;">Cancel</button>

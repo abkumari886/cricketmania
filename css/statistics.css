@@ -27,32 +27,13 @@ h3{
     height: 32px;
     width: 526px;
 }
-.container #pname{
-    margin-left: 80px;
-}
-.container #tmatch{
-    margin-left: 50px;
-}
-.container #century{
-    margin-left: 80px;
-}
-.container #hcentury{
-    margin-left: 50px;
-}
-.container #trun{
-    margin-left: 75px;
-}
-.container #overs{
-    margin-left: 100px;
-}
-.container #wicket{
-    margin-left: 95px;
-}
-.container #rout{
-    margin-left: 95px;
+
+.container #player{
+    margin-left: 20px;
+    width: 526px;
 }
 footer {
-    position: absolute;
+    
     bottom: 0;
     width: 100%;
     height: 50px;

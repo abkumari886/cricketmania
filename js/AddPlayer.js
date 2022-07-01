@@ -10,7 +10,7 @@ const myform = document.getElementById('myForm');
                 searchParms.append(pair[0],pair[1]);
             }
 
-            fetch('https://jsonplaceholder.typicode.com/posts',{
+            fetch('http://localhost:8080/addPlayer',{
                 method: 'post',
                 body: searchParms
             }).then(function(response){
@@ -30,7 +30,7 @@ const myform = document.getElementById('myForm');
                     $('#img')
                         .attr('src', e.target.result)
                         .width(150)
-                        .height(40);
+                        .height(80);
                 };
 
                 reader.readAsDataURL(input.files[0]);

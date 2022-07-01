@@ -21,28 +21,29 @@
     border: none;
     text-transform: uppercase;
     cursor: pointer;
+    margin-bottom:20px;
 }
 .container input{
     margin-left: 20px;
     height: 32px;
     width: 526px;
 }
-
-.container #ptype{
-    margin-left: 25px;
+ input#choose{
+    width:300px
 }
-.container #pbirth{
+
+.container #team{
+    margin-left: 20px;
+    width: 526px;
+}
+.container #address{
     margin-left: 18px;
 }
-.container #rank{
-    margin-left: 55px;
-}
+
 footer{
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 10px;
 }
-body{
-    padding-top: 70px;
-}
+

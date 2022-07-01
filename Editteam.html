@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
     <link rel="stylesheet" href="css/AddTeam.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <body>
             <!--Navigation bar-->
@@ -21,27 +22,23 @@
         </script>
         <!--end of Navigation bar-->
         <div class="container">
-            <h1>Add Team</h1>
+            <h1>Edit Team</h1>
             <h4>Enter Data and Click Save</h4>
             <form class="form" id="myForm">
-                <label for="tname">Team Name:</label>
-                <input type="text" id="tname" name="tname"><br><br>
-                <label for="tcode">Team Code:</label>
-                <input type="text" id="tcode" name="tcode"><br><br>
-                <label for="desc">Description:</label>
-                <input type="text" id="desc" name="desc"><br><br>
-                <label for="tcoach">Team Coach:</label>
-                <input type="text" id="tcoach" name="tcoach"><br><br>
-                <label for="mplayed">Matches Played:</label>
-                <input type="text" id="mplayed" name="mplayed"><br><br>
-                <label for="mwin">Matches Win :</label>
-                <input type="text" id="mwin" name="mwin"><br><br>
-                <label for="mlost">Matches Lost:</label>
-                <input type="text" id="mlost" name="mlost"><br><br>
-                <label for="trating">Team Rating:</label>
-                <input type="text" id="trating" name="trating"><br><br>
+                <input class="form-control" type="text" id="tname" name="tname" placeholder="Team Name"><br>
+                <input class="form-control" type="text" id="tcode" name="tcode" placeholder="Team Code"><br>
+                <input class="form-control" type="text" id="desc" name="desc" placeholder="Description"><br>
+                <input class="form-control" type="text" id="tcoach" name="tcoach" placeholder="Team Coach"><br>
+                <input class="form-control" type="text" id="mplayed" name="mplayed" placeholder="Matches"><br>
+                <input class="form-control" type="text" id="mwin" name="mwin" placeholder="Matches Won"><br>
+                <input class="form-control" type="text" id="mlost" name="mlost" placeholder="Matches Lost"><br>
+                <input class="form-control" type="text" id="trating" name="trating" placeholder="Team Rating"><br>
                 <label for="img">Team Flag:</label>
-                <input type="file" id="img" name="img" accept="image/*"><br><br>
+                <input type='file' id="choose" onchange="readURL(this);" />
+                <img id="blah" src="#" alt="your image" /><br><br>
+                <label for="img">Team Jersy:</label>
+                <input type='file' id="choose" onchange="readsURL(this);" />
+                <img id="blah1" src="#" alt="your image" /><br><br>
                 <button type="submit" value="Submit">Save</button>
                 <button type="cancel" onclick="window.location='Teamlist.html';return false;">Cancel</button>
               </form>

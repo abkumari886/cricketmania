@@ -28,24 +28,10 @@
     height: 32px;
     width: 526px;
 }
-.container #tname {
-    margin-left: 30px;
+input#choose{
+    width:300px
 }
-.container #tcode {
-    margin-left: 30px;
-}
-.container #desc {
-    margin-left: 30px;
-}
-.container #tcoach {
-    margin-left: 25px;
-}
-.container #mplayed {
-    margin-left: 5px;
-}
-.container #trating {
-    margin-left: 25px;
-}
+
 footer{
     bottom: 0;
     width: 100%;

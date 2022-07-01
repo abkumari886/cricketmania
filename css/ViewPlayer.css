@@ -1,5 +1,5 @@
 .container{
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .container h1{
     margin-top:20px; 
@@ -31,15 +31,8 @@
     width: 526px;
 }
 
-.container #ptype{
-    margin-left: 25px;
-}
-.container #pbirth{
-    margin-left: 18px;
-}
-.container #rank{
-    margin-left: 55px;
-}
+
+
 footer{
     position: absolute;
     bottom: 0;

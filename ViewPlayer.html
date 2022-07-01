@@ -1,57 +1,39 @@
 <!DOCTYPE html>
-
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="css/ViewPlayer.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/contact.css"> -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<body>
+            <!--Navigation bar-->
+        <div id="nav-placeholder">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My practice project</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/ViewPlayer.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
-    </head>
+        </div>
 
-    <body>
-
-        <header>
-            <div class="container">
-                <section class="logo"><img src="images/logo.png"></section>
-                    <nav>
-                        <ul>
-                            <li><a href="http://127.0.0.1:5502/index.html#">Home</a></li>
-                            <li><a href="http://127.0.0.1:5502/Teamlist.html">Teams</a></li>
-                            <li><a href="http://127.0.0.1:5502/Playerlist.html">Players</a></li>
-                            <li><a href="http://127.0.0.1:5502/statistics.html">Statistics</a></li>
-                            <li><a href="http://127.0.0.1:5502/contact.html">Contact us</a></li>
-                        </ul>
-                    </nav>
-
-            </div>
-            
-        </header>
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
         <section>
             <div class="container">
                 <h3>View Player</h3>
                 <form action="/AddPlayer.html" class="output">
-                    <label for="pname">Player Name:</label>
-                    <input type="text" id="pname" name="pname"><br><br>
-                    <label for="ptype">Player Type:</label>
-                    <input type="text" id="ptype" name="ptype"><br><br>
-                    <label for="dbirth">Date Of Birth:</label>
-                    <input type="text" id="dbirth" name="dbirth"><br><br>
-                    <label for="pbirth">Place Of Birth:</label>
-                    <input type="text" id="pbirth" name="pbirth"><br><br>
-                    <label for="mname">Mother Name:</label>
-                    <input type="text" id="mnamr" name="mname"><br><br>
-                    <label for="fname">Father Name:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                    <label for="rank">Ranking:</label>
-                    <input type="text" id="rank" name="rank"><br><br>
-                    <button type="submit" id="btn">find</button>
+                    <input class="form-control" type="text" id="pname" name="pname" placeholder="Player Name"><br>
+                    <input class="form-control" type="text" id="ptype" name="ptype" placeholder="Player Type"><br>
+                    <input class="form-control" type="text" id="dbirth" name="dbirth" placeholder="Date Of Birth"><br>
+                    <input class="form-control" type="text" id="address" name="address" placeholder="Address:"><br>
+                    <input class="form-control" type="text" id="gnamr" name="gname" placeholder="Guardian Name"><br>
+                    <input class="form-control" type="text" id="rank" name="rank" placeholder="Ranking"><br>
+                    <input class="form-control" type="text" id="team" name="team" placeholder="Team"><br>
+                    
                     <button type="cancel" onclick="window.location='Playerlist.html';return false;">Cancel</button>
                   </form>
             </div>

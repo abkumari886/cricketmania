@@ -1,21 +1,35 @@
-{
-
-    "players": [
-        {
-            "name": "Learn to Code",
-            "code": "John Smith",
-            "desc": "324-23243"
-        },
-        {
-            "name": "The Adentures JSON",
-            "code": "Jason Jones",
-            "desc": "3324-2-444."
-        },
-        {
-            "name": "New Objects",
-            "code": "John Doe",
-            "desc": "2343-234-2433"
-    
-        }
-    ] 
-}
+[
+    {
+        "id": 1,
+        "name": "Ravi",
+        "guardian_name": "s.kumar",
+        "dob": "2020-03-09T22:18:26.625+00:00",
+        "photo": "abgc",
+        "team_name": "India",
+        "address": "bokaro",
+        "player_type": "bats man",
+        "ranking": 2
+    },
+    {
+        "id": 2,
+        "name": "virat",
+        "guardian_name": "virendra",
+        "dob": "2020-03-09T22:18:26.625+00:00",
+        "photo": "abgc",
+        "team_name": "India",
+        "address": "Bihar",
+        "player_type": "bats man",
+        "ranking": 1
+    },
+    {
+        "id": 3,
+        "name": "Rahul",
+        "guardian_name": "Jitendra",
+        "dob": "2020-03-09T22:18:26.625+00:00",
+        "photo": "abgc",
+        "team_name": "India",
+        "address": "Delhi",
+        "player_type": "bats man",
+        "ranking": 3
+    }
+]
